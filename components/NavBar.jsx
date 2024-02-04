@@ -2,7 +2,7 @@
 
 export default function NavBar() {
   return (
-    <nav className='flex flex-col p-4 text-[#1F363D] bg-white py-28'>
+    <nav className='flex flex-col p-4 text-[#1F363D] bg-white py-28 bg-no-repeat bg-cover bg-[url("/images/header-scr.png")] bg-center '>
       <h1 className='mb-4 text-4xl font-extrabold text-center'>GREENTHUMB</h1>
       <ul className='flex flex-row justify-center gap-4 '>
         <li>

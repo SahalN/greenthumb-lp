@@ -11,20 +11,14 @@ import "./global.css";
 export default function RootLayout({ children }) {
   return (
     <html className={poppins.variable}>
-      <body className='flex flex-col min-h-screenfont-semibold font-poppins bg-[#1F363D] text-[#9EC1A3]'>
+      <body className='flex flex-col min-h-screenfont-semibold font-poppins bg-[#1F363D] text-[#9EC1A3] animate-fade-up animate-once animate-ease-in-out'>
         <header>
           <NavBar />
         </header>
         <main className='grow'>{children}</main>
-        <footer className='px-2 py-8 text-center sm:text-left'>
+        <footer className='px-2 py-8 text-center text-white sm:text-left'>
           <div className='flex flex-col justify-between'>
-            <div>
-              <p className='text-sm'>
-                © 2024 InventiveVeg. Lovingly planted and grown in the digital
-                soil.
-              </p>
-            </div>
-            <div className='flex flex-row justify-center gap-2 pt-2'>
+            <div className='flex flex-row justify-center gap-2 '>
               <div>
                 <InstagramIcon />
               </div>
@@ -37,6 +31,12 @@ export default function RootLayout({ children }) {
               <div>
                 <YouTubeIcon />
               </div>
+            </div>
+            <div className='pt-2'>
+              <p className='text-sm '>
+                © 2024 InventiveVeg. Lovingly planted and grown in the digital
+                soil.
+              </p>
             </div>
           </div>
         </footer>
