@@ -14,9 +14,7 @@ The Greenthumb website is a platform for garden enthusiasts who want to find ins
 
 ## Usage
 
-1. Clone this repository:
-
-git clone https://github.com/SahalN/greenthumb-lp.git
+1. Clone this repository: git clone https://github.com/SahalN/greenthumb-lp.git
 
 2. Navigate to the project directory and install dependencies:
 cd greenthumb-lp
