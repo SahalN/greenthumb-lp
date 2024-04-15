@@ -19,13 +19,10 @@ The Greenthumb website is a platform for garden enthusiasts who want to find ins
 git clone https://github.com/SahalN/greenthumb-lp.git
 
 2. Navigate to the project directory and install dependencies:
-
 cd greenthumb-lp
 npm install
 
-
 3. Run the project:
-
 npm run dev
 
 4. Open your favorite web browser and navigate to [http://localhost:3000](http://localhost:3000) to view the Greenthumb Landing Page.
